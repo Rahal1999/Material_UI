@@ -41,9 +41,9 @@ export default function LinearBuffer() {
         <div>
             <CircularProgress variant="static" value={completed} />
             <LinearProgress variant={"buffer"} value={completed} valueBuffer={buffer} color={"secondary"}/><br/>
-            <LinearProgress variant={"query"} value={completed} valueBuffer={buffer} color={"primary"}/><br/>
-            <LinearProgress variant={"indeterminate"} value={completed} valueBuffer={buffer} color={"secondary"}/><br/>
-            <LinearProgress variant={"determinate"} value={completed} valueBuffer={buffer} color={"primary"}/><br/>
+            {/*<LinearProgress variant={"query"} value={completed} valueBuffer={buffer} color={"primary"}/><br/>*/}
+            {/*<LinearProgress variant={"indeterminate"} value={completed} valueBuffer={buffer} color={"secondary"}/><br/>*/}
+            {/*<LinearProgress variant={"determinate"} value={completed} valueBuffer={buffer} color={"primary"}/><br/>*/}
 
 
 

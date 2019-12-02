@@ -17,6 +17,7 @@ import OutlinedChips from "./components/Chipp";
 import BasicTextFields from "./components/Formm";
 import LinearBuffer from "./components/LinearBufferr";
 import ExpansionPanels from "./components/ExpansionPaneles";
+import OpenIconSpeedDial from "./components/SpeedDiall";
 
 
 
@@ -60,10 +61,10 @@ function App() {
         </Tooltip>
         <br/>
 
-        <Typography variant='display1' align='center' gutterBottom>        Exercises      </Typography>
+        <Typography variant='display1' align='center' gutterBottom>        Typography TEXT      </Typography>
 
         <Box component="span" m={10}>
-            <Button>sadsda</Button>
+            <Button>Test Box </Button>
         </Box>
 
 
@@ -72,11 +73,12 @@ function App() {
 
         <Test/>
 
+
         <BottonNavigationBar/>
 
 
         <HorizontalLinearStepper/>
-
+        <OpenIconSpeedDial/>
         <CustomizedSlider/>
 
 <BasicTextFields/>

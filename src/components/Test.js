@@ -6,18 +6,18 @@ import bike from './bike.jpeg';
 
 const images = [
     {
-        backgroundImage: {bike},
-        title: 'bike',
+        url:'https://auto.ndtvimg.com/bike-images/colors/jawa/forty-two/jawa-forty-two-lumos-lime.jpg?v=19',
+        title: 'Bikes',
         width: '35%',
     },
     {
-        backgroundColor: './src/car.jpeg',
-        title: 'Burgers',
+        url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Nl4CsuM2PhDot0UM1oNEsSpNqkLBN01D1_pwDKEIt56xJZXr&s',
+        title: 'Jeeps',
         width: '30%',
     },
     {
-        url: '/static/images/grid-list/camera.jpg',
-        title: 'Camera',
+        url: 'https://specials-images.forbesimg.com/imageserve/5d35eacaf1176b0008974b54/960x0.jpg?cropX1=790&cropX2=5350&cropY1=784&cropY2=3349',
+        title: 'Cars',
         width: '35%',
     },
 
@@ -114,7 +114,7 @@ export default function ButtonBases() {
           <span
               className={classes.imageSrc}
               style={{
-                  backgroundImage: `url(${image.backgroundImage})`,
+                  backgroundImage: `url(${image.url})`,
               }}
           />
                     <span className={classes.imageBackdrop} />

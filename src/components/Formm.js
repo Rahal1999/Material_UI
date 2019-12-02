@@ -112,8 +112,8 @@ export default function BasicTextFields() {
 
             <TextField id="outlined-basic" label="Name" variant="outlined" />
             <TextField id="outlined-basic2" label="Last Name" variant="outlined" />
-            <TextField/>
-
+            <TextField label="Name" variant="filled"/>
+            <TextField label="Name" variant="outlined"/>
 
         </form >
 
