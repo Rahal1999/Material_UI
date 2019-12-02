@@ -3,7 +3,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Avatar from '@material-ui/core/Avatar';
 import Chip from '@material-ui/core/Chip';
-
+import Typography from '@material-ui/core/Typography';
 import pic from './bike.jpeg';
 
 
@@ -16,13 +16,30 @@ const useStyles = makeStyles(theme =>({
             margin : theme.spacing(0.5),
         },
     },
+
+    chipss:{
+        position:'relative',
+
+    }
 }));
 
+// const [chipData, setChipData] = React.useState([
+//     { key: 0, label: 'Angular' },
+//     { key: 1, label: 'jQuery' },
+//     { key: 2, label: 'Polymer' },
+//     { key: 3, label: 'React' },
+//     { key: 4, label: 'Vue.js' },
+// ]);
 
 export default function OutlinedChips() {
     const classes = useStyles();
 
+    // const handleDeletechip = chipToDelete => () => {
+    //     setChipData(chips => chips.filter(chip => chip.key !== chipToDelete.key));
+    // };
+
     const handleDelete = () => {
+
         console.info('You clicked the delete icon.');
     };
 
@@ -35,7 +52,9 @@ export default function OutlinedChips() {
     }
 
     return(
+
         <div className={classes.root}>
+            <Typography className={classes.chipss}>Chips -----------------------------></Typography>
             <Chip label="Basic" variant="outlined"/>
 
 
@@ -59,6 +78,7 @@ export default function OutlinedChips() {
                 icon = {<DirectionsBikeOutlinedIcon/>}
                 label = "....Bike"
                 onClick = {onSubmit}
+
             />
         </div>
     );

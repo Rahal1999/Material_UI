@@ -48,7 +48,7 @@ export default function MenuAppBar() {
         <div className={classes.root}>
             <FormGroup>
                 <FormControlLabel control={<Switch checked={auth} onChange={handleChange} aria-label="LOGIN"/>}
-                                  label={auth ? 'Logout...' : 'Login back'}/>
+                                  label={auth ? 'LOGOUT...' : 'LOGIN...'}/>
             </FormGroup>
             <AppBar position={"static"}>
                 <Toolbar>

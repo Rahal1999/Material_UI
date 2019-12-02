@@ -11,7 +11,7 @@ const images = [
         width: '35%',
     },
     {
-        url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Nl4CsuM2PhDot0UM1oNEsSpNqkLBN01D1_pwDKEIt56xJZXr&s',
+        url: 'https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/2020/wrangler/vlp/gallery-carousel/Overview-Gallery-01-Desktop.jpg.image.1440.jpg',
         title: 'Jeeps',
         width: '30%',
     },

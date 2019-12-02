@@ -80,20 +80,25 @@ function App() {
 
 
         <MenuAppBar/>
+        <HorizontalLinearStepper/>
         <ExpansionPanels/>
+        <Typography variant={"subtitle1"} color={"textSecondary"}>Complex Buttons</Typography>
+        <Test/>
+        <br/>
 
 
-<br/>
+
+
+
         <Tooltip title="hey hey!!!" enterDelay={500} leaveDelay={300}>
         <Button  variant="contained" color="primary" font-color='red'>
-
             Hello World
         </Button>
         </Tooltip>
         <br/>
 
         <Typography variant='display1' align='center' gutterBottom>        Typography TEXT      </Typography>
-
+        <Typography variant='h6' align='center' gutterBottom>        Typography TEXT      </Typography>
         <Box component="span" m={10}>
             <Button>Test Box </Button>
         </Box>
@@ -106,13 +111,13 @@ function App() {
 
         <OutlinedChips/>
 
-        <Test/>
+
 
 
         <BottonNavigationBar/>
 
 
-        <HorizontalLinearStepper/>
+
         <OpenIconSpeedDial/>
         <CustomizedSlider/>
 

@@ -24,15 +24,15 @@ const useStyles = makeStyles(theme => ({
 }));
 
 function getSteps(){
-    return ['Select step one','Intermidiate step','Final step','ur done'];
+    return ['Start','Learn What is Material UI','Try it out','Build projects using Material UI!!!'];
 }
 
 function getStepContent (step){
     switch(step){
-        case 0 : return "Select step one...";
-        case 1 : return "what is an intermidiate step";
-        case 2 : return "ooo close to the final step...";
-        case 3 : return "........ur done...";
+        case 0 : return "First start...";
+        case 1 : return "Learn More about Material Ui";
+        case 2 : return "Yeah you better keep trying it out";
+        case 3 : return "Nice!!! ";
         default : return ".......step.......";
     }
 }
