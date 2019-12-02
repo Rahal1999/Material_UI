@@ -1,7 +1,7 @@
 
 import Snackbar from '@material-ui/core/Snackbar';
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+// import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import {red} from "@material-ui/core/colors";
 import Fade from '@material-ui/core/Fade';
@@ -17,6 +17,7 @@ import RadioGroup from '@material-ui/core/RadioGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormControl from '@material-ui/core/FormControl';
 import FormLabel from '@material-ui/core/FormLabel';
+import { ThemeProvider, makeStyles } from '@material-ui/core/styles';
 
 function GrowTransition(props) {
     return <Grow {...props} />;
@@ -25,6 +26,7 @@ function GrowTransition(props) {
 
 const useStyles = makeStyles(theme => ({
     root: {
+
         '& > *': {
             margin: theme.spacing(2),
             width: 200,
@@ -32,8 +34,12 @@ const useStyles = makeStyles(theme => ({
 
         },
 
+
     },
 }));
+
+
+
 
 
 export default function BasicTextFields() {
@@ -129,11 +135,14 @@ export default function BasicTextFields() {
                 onClose={handleClose}
             >
                 <DialogTitle>--- Material UI Dialog TEST ---</DialogTitle>
-                    <DialogContent>
-                        <DialogContentText>
+
+                    <DialogContent >
+
+                        <DialogContentText >
                             dadasdsadsad dfdcdscd dsds sdcsd cds d sd vsd sd vss sd sd cd ef  f fuhd sfh o fsd f
                         </DialogContentText>
                     </DialogContent>
+
 
                 <DialogActions>
                     <Button onClick={handleClose} color="primary">Close</Button>

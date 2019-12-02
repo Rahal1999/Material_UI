@@ -11,6 +11,7 @@ import ShareIcon from '@material-ui/icons/Share';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import EditIcon from '@material-ui/icons/Edit';
 import DeviceHubIcon from '@material-ui/icons/DeviceHub';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -32,6 +33,7 @@ const actions = [
     { icon: <ShareIcon />, name: 'Share' },
     { icon: <FavoriteIcon />, name: 'Like' },
     { icon: <DeviceHubIcon />, name: 'DeviceHub' },
+    { icon: < GitHubIcon/>, name: 'Github' },
 ];
 
 
