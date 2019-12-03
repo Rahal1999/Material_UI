@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0274a078-3942-4271-97d4-864cfe46fccb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Formm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Formm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LinearBufferr.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LinearBufferr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sliderr.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliderr.js" afterDir="false" />
-    </list>
+    <list default="true" id="0274a078-3942-4271-97d4-864cfe46fccb" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +50,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Sliderr.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
+            <state relative-caret-position="69">
               <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -228,7 +222,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575348057022" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575348346314" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -268,7 +262,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574913235886</updated>
       <workItem from="1574913238186" duration="13044000" />
-      <workItem from="1574936485188" duration="48266000" />
+      <workItem from="1574936485188" duration="48556000" />
     </task>
     <task id="LOCAL-00001" summary="Component added...">
       <created>1575275642941</created>
@@ -281,13 +275,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61310000" />
+    <option name="totallyTimeSpent" value="61600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20318726" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20318726" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -302,7 +295,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.736255" visible="true" weight="0.2435484" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.736255" visible="true" weight="0.61774194" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.263745" side_tool="true" weight="0.4516129" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -526,7 +519,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Sliderr.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
+        <state relative-caret-position="69">
           <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
