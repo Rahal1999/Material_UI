@@ -18,7 +18,7 @@ const useStyles = makeStyles(theme => ({
 
 const PrettoSlider = withStyles({
     root: {
-        color: '#af078b',
+        color: '#1f9aaf',
         height: 8,
        left: 350
     },
@@ -53,7 +53,7 @@ export default function CustomizedSlider() {
     return (
         <div className={classes.root}>
             <div className={classes.margin}/>
-            <Typography gutterBottom>......slider......</Typography>
+            <Typography  >Slider</Typography>
             <PrettoSlider valueLabelDisplay="auto" aria-label="..... Slider  ......." defaultValue={50}/>
             <div className={classes.margin}/>
 

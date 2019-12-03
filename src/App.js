@@ -112,20 +112,20 @@ function App() {
         <OutlinedChips/>
 
 
+        <LinearBuffer/>
+        <BasicTextFields/>
 
-
-        <BottonNavigationBar/>
 
 
 
         <OpenIconSpeedDial/>
         <CustomizedSlider/>
 
-<BasicTextFields/>
 
 
-        <LinearBuffer/>
 
+
+        <BottonNavigationBar/>
 
       </div>
 

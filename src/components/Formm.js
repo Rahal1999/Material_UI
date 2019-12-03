@@ -86,40 +86,16 @@ export default function BasicTextFields() {
     return (
         <div >
 
-            <FormControl component="fieldset">
-                <RadioGroup >
 
-                    <FormControlLabel
-                        value="start"
-                        control={<Radio color="primary" />}
-                        label="Start"
-                        labelPlacement="start"
-                    />
-
-                    <FormControlLabel
-                        control={<Radio color={"secondary"}/>}
-                        label="End"
-                        value={"end"}
-                        labelPlacement={"end"}
-                    />
-
-                    <FormControlLabel
-                        control={<Radio color={"default"}/>}
-                        label="Top"
-                        labelPlacement={"top"}
-                        value={"top"}
-                    />
-                </RadioGroup>
-            </FormControl>
 
 
 
         <form className={classes.root} noValidate autoComplete="off">
 
-            <TextField id="outlined-basic" label="Name" variant="outlined" />
-            <TextField id="outlined-basic2" label="Last Name" variant="outlined" />
-            <TextField label="Name" variant="filled"/>
-            <TextField label="Name" variant="outlined"/>
+            <TextField id="outlined-basic" label="Standard" variant="standard" />
+            <TextField id="outlined-basic2" label="Outlined" variant="outlined" />
+            <TextField label="Filled" variant="filled"/>
+
 
         </form >
 
@@ -167,7 +143,31 @@ export default function BasicTextFields() {
 
             </div>
 
+            <FormControl component="fieldset">
+                <RadioGroup >
 
+                    <FormControlLabel
+                        value="start"
+                        control={<Radio color="primary" />}
+                        label="Start"
+                        labelPlacement="start"
+                    />
+
+                    <FormControlLabel
+                        control={<Radio color={"secondary"}/>}
+                        label="End"
+                        value={"end"}
+                        labelPlacement={"end"}
+                    />
+
+                    <FormControlLabel
+                        control={<Radio color={"default"}/>}
+                        label="Top"
+                        labelPlacement={"top"}
+                        value={"top"}
+                    />
+                </RadioGroup>
+            </FormControl>
 
 
         </div>
